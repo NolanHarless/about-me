@@ -1,0 +1,237 @@
+
+<style>
+    body{
+        background-color: white;
+        font-family: sans-serif;
+        width: 100%;
+        height: 100%;
+    }
+    .text-center{
+        text-align: center;
+        margin: auto;
+        color: white;
+        padding: 15px;
+    }
+
+    .nav-bar ul li{
+        font-size: 1.5em;
+        list-style-type: none;
+        display: inline-block;
+        padding-top: 20px;
+    }
+    .nav-bar ul li a{
+        color:white;
+        padding: 20px;
+        text-decoration: none;
+    }
+    .nav-bar{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        background-color: blue;
+        border-bottom: 5px solid black;
+    }
+    header{
+        width: 100%;
+        margin: auto;
+        background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+    .active{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .center-text{
+        text-align: center;
+    }
+    .wrapper{
+        width: 75%;
+        margin: auto;
+    }
+    .github-button{
+        background-color: black;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        width: 15%;
+        transition: background-color ease-in-out .25s;
+    }
+    .github-logo{
+        width: 100%;
+        vertical-align: middle;
+    }
+    .github-button:hover{
+        cursor: pointer;
+        transition: background-color ease-in-out .25s;
+        background-color: blue;
+    }
+    .profile-img{
+        width: 100%;
+        margin: auto;
+        display: block;
+        border: 5px solid white;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        border-radius: 50%;
+    }
+    .center-everything{
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    .bear-img{
+        width: 30%;
+        margin: auto;
+        display: block
+    }
+    .white-space{
+        margin-top: 5%;
+    }
+    article{
+        border-bottom: solid black 5px;
+    }
+    aside{
+        padding: 25px;
+    }
+    .youtube-video{
+        margin: auto;
+        display: block;
+    }
+    .table-video{
+        margin: auto;
+        text-align: center;
+    }
+    .table-video tr td{
+        width: 50%;
+    }
+    .bk-color-red{
+        background-color: red;
+        color: white
+    }
+    .bk-color-green{
+        background-color: green;
+        color: white;
+    }
+    .font-size-table{
+        font-size: 2em;
+        text-align: center;
+    }
+    .footer{
+        background-color: blue;
+        color: white;
+    }
+    .footer ul{
+        padding: 25px;
+    }
+</style>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nolan Harless About Me</title>
+  <meta name="Nolan Harless" content="SitePoint">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <nav class="nav-bar">
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="tip.html">Tip Calculator</a></li>
+            </ul>
+        </nav>
+    <article>
+        <table>
+            <tr>
+                <td>
+                    <img class="profile-img" src="NolanHarless.png">
+                    <h1 class="center-text">Section 1</h1>
+                </td>
+                <td class="center-everything">
+                        <aside>
+                        <h4>Aside 1: Link to Github</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="https://github.com/NolanHarless/about-me"><button class="github-button" onclick="location.href = 'https://github.com/NolanHarless/about-me"><img class="github-logo" src="GitHub_Logo_white.png"></button></a>
+                </td>
+            </tr>
+        </table>
+    </article>
+    </article>
+    <div class="white-space"></div>
+    <article class="center-everything">
+        <h1 class="center-text">Section 2: Graphic Design Work</h1>
+        <img class="bear-img"src="DesignCore-Bear.png">
+        <h4>Design Work Done by Me</h4>
+        <ul>
+            <li>
+                <b>Software and Langauges I use</b>
+            </li>
+            <li>
+                Adobe Product Suite
+            </li>
+            <li>
+                HTML, CSS, JavaScipt
+            </li>
+            <li>
+                Markdown 
+            </li>
+        </ul>
+        <ol>
+            <li>
+                Language 1
+            </li>
+            <li>
+                Language 2
+            </li>
+        </ol>
+    </article>
+    <article>
+        <h1 class="center-text">Section 3: Embedded Video</h1>
+        <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/Wb3UrJjAac4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe c>
+        <div class="white-space"></div>
+        <table class="table-video">
+            <tr>
+                <td colspan=2 class="font-size-table">
+                    <b>(table) Pros & Cons of Video</b>
+                </td>
+            </tr>
+            <tr>
+                <td class="bk-color-green">
+                    Pros 
+                </td>
+                <td class="bk-color-red">
+                    Cons
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Dog ate burrito really fast.
+                </td>
+                <td>
+                    Video was short.
+                </td>
+            </tr>
+        </table>
+        <div class="white-space"></div>
+        </atricle>
+    </div>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li>
+                    Github Repository Link
+                </li>
+                <li>
+                    Photo and design work credit goes to me.
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
