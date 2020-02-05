@@ -1,27 +1,74 @@
-# Nolan-Harless-about-me
 
-## Repository Links
+<style>
+    .text-center{
+        text-align: center;
+        margin: auto;
+        color: white;
+        padding: 15px;
+    }
 
-[source repository](https://github.com/NolanHarless/about-me)
-[hosted page](https://nolanharless.github.io/about-me/)
+    .nav-bar ul li{
+        font-size: 1.5em;
+        list-style-type: none;
+        display: inline-block;
+        padding-top: 20px;
+    }
+    .nav-bar ul li a{
+        color: black;
+        padding: 20px;
+    }
+    .nav-bar{
+        text-align: center;
+        margin: auto;
+        border-bottom: 5px solid blue;
+    }
+    header{
+        background-color: blue;
+    }
+    .active{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .center-text{
+        text-align: center;
+    }
+</style>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nolan Harless About Me</title>
+  <meta name="Nolan Harless" content="SitePoint">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-## About 
+<body>
+    <header>
+        <h1 class="text-center">Nolan Harless</h1>
+    </header>
+    <nav class="nav-bar">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="interaction.html">Interaction</a></li>
+        </ul>
+    </nav>
 
-This repository will be dedicated to my expirementation with Markdown language in Github as well as be a host for all my Web App course work files.
+<article>
+    <h1 class="center-text">Section 1</h1>
+    <aside>
+    <h4>Aside 1: Link to Github</h4>
+    <a href="https://github.com/NolanHarless/about-me">GitHub.io Link</a>
+</aside>
+</atricle>
+<article>
+    <h1 class="center-text">Section 2</h1>
+</atricle>
+<article>
+    <h1 class="center-text">Section 3</h1>
+</atricle>
+</body>
+</html>
 
-## Recommended Tools
 
-Tools used to publish GitHub Pages:
 
-* [GitBash](https://git-scm.com/downloads) GitBash can be used to push, pull, publish and commit new changes to a GitHub page.
-* [GitHub](https://github.com/) GitHub can be used to update GitHubPages from the cloud like I am currently doing.
 
-## Recommended Resources
-
-* A good resource for fixing your code is [Stack Overflow](https://stackoverflow.com/)
-* A good resource for fixing your JAVA code is [Oracle Java Documentation](https://docs.oracle.com/en/java/)
-
-## Contributors
-
-Nolan Harless - Computer Science with an emphasis in Interactive Digital Media
-![](NolanHarless.png)
